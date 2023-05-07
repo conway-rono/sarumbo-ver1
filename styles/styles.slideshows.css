@@ -1,0 +1,39 @@
+.slideshow{
+    background-color: indigo;
+    margin: 1rem auto;
+    box-shadow: 2px 2px 5px rgb(94, 93, 93);
+}
+
+@media only screen and (min-width:600px){
+    .slideshow{
+        width: 70%;
+        max-width: 600px;
+        height: 40vh;
+        border-radius: 15px;
+        
+    }
+}
+
+@media only screen and (max-width:600px){
+    .slideshow{
+        width: 90%;
+        max-width: 700px;
+        height: 30vh;
+        border-radius: 15px;
+        
+    }
+}
+#ss1,#ss2,#ss3{
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#ss1{
+    background: url(../images/sp13.png);
+}
+#ss2{
+    background: url(../images/sp15.png);
+}
+#ss3{
+    background: url(../images/sp5.png);
+}
